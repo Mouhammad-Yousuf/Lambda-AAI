@@ -108,12 +108,35 @@ Next, update the browser script to include the Amazon Cognito identity pool ID c
 
 To prepare the browser script in the webpage
 
-Open index.html in the MyLambdaApp folder in a text editor.
+Open index.html in the Workdirectory folder in a text editor.
 
 Find this line of code in the browser script.
 
-AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'IDENTITY_POOL_ID'});
+      AWS.config.credentials = new AWS.CognitoIdentityCredentials({IdentityPoolId: 'IDENTITY_POOL_ID'});
 
 Replace IDENTITY_POOL_ID with the identity pool ID you obtained previously.
 
 Save index.html.
+
+      ************************************************************************************************************
+A Lambda function requires an execution role created in IAM that provides the function with the necessary permissions to run.
+
+      Open lambda-role-setup.js in the slotassets directory in a text editor.
+
+      Find this line of code.
+
+      const ROLE = "ROLE"
+
+      Replace ROLE with another name.
+
+      Save your changes and close the file.
+
+      At the command line, type the following.
+
+      node lambda-role-setup.js
+
+      Make a note of the ARN returned by the script. You need this value to create the Lambda function.
+
+
+      ***********************************************************************************************************
+  
