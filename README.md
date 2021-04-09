@@ -99,7 +99,7 @@ Choose Allow.
 
 Choose Sample code in the side menu. Make a note of the identity pool ID, shown in red text in the console.
 
-<img width="300" alt="identity-pool-id" src="https://user-images.githubusercontent.com/14894918/114202944-5f513600-9960-11eb-8a45-1d91d4bbbb92.png">
+<img width="500" alt="identity-pool-id" src="https://user-images.githubusercontent.com/14894918/114202944-5f513600-9960-11eb-8a45-1d91d4bbbb92.png">
 
 
                     
