@@ -14,5 +14,9 @@ This archive contains the browser assets that are used by the application, the N
 
 Unzip the contents of slotassets.zip as the directory slotassets in MyLambdaApp. The slotassets directory should contain the 30 files.
 
-Create a JSON file with your account credentials in your working directory. This file is used by the setup scripts to authenticate their AWS requests. For details, see Loading Credentials in Node.js from a JSON File.
+Create a JSON file with your account credentials in your working directory. This file is used by the setup scripts to authenticate their AWS requests. For details, see Loading Credentials in Node.js from a JSON File
+
+      https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-node-credentials-json-file.html
+  
+
 
