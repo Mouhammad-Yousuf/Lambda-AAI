@@ -6,7 +6,7 @@ On Linux or Mac let's use ~/MyLambdaApp; on Windows let's use C:\MyLambdaApp. Fr
 
 Download slotassets.zip here
 
-click on the link below and press download into your prefered directory.
+navigate tp the link below and press download into your prefered directory.
       
       https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/javascript/example_code/lambda/tutorial/slotassets.zip
 
