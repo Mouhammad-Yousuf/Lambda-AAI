@@ -2,6 +2,10 @@ To construct the tutorial application and the Lambda function it uses
 
 Create a working directory on your computer for this tutorial.
 
+change diectory to your workdirectory using CD command 
+
+      cd d:/yourworkdirectory
+
 install the aws SDK 
 
       npm install aws-sdk
@@ -10,7 +14,7 @@ On Linux or Mac let's use ~/MyLambdaApp; on Windows let's use C:\MyLambdaApp. Fr
 
 Download slotassets.zip here
 
-navigate tp the link below and press download into your prefered directory.
+navigate to the link below and press download into your prefered directory.
       
       https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/javascript/example_code/lambda/tutorial/slotassets.zip
 
