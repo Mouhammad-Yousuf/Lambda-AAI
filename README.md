@@ -204,17 +204,15 @@ The Lambda function generates three random results, one for each slot wheel in t
 
 The Node.js code needed for the Lambda function is in the slotassets directory. You must edit this code to use it in your Lambda function. Completing this portion of the application requires you to do these things:
 
-      Edit the Node.js code used by the Lambda function.
-
+**Edit the Node.js code used by the Lambda function
 Compress the Node.js code into a .zip archive file that you then upload to the Amazon S3 bucket used by the application.
-
-      Edit the Node.js setup script that creates the Lambda function.
-
+Edit the Node.js setup script that creates the Lambda function.
 Run the setup script, which creates the Lambda function from the .zip archive file in the Amazon S3 bucket.
+To make the necessary edits in the Node.js code of the Lambda function
+**
+the Node.js for the application is the slotpull.js
 
-      To make the necessary edits in the Node.js code of the Lambda function
-
-Open slotpull.js in the slotassets directory in a text editor.
+      Open slotpull.js in the slotassets directory in a text editor.
 
 Find this line of code in the browser script.
 
