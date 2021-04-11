@@ -54,7 +54,7 @@ At the command line, type the following command, where BUCKET_NAME is the name f
 
 The bucket name must be globally unique. If the command succeeds, the script displays the URL of the new bucket. 
 
-      Make a note of this URL because you'll use it later.
+      Make a note of this ARN because you'll use it later.
 
       ******************************************************************************************************
  
